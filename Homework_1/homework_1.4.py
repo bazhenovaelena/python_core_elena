@@ -1,3 +1,4 @@
+
 name =  "Ivanou Ivan"
 print(name)
 name_2 = name.split()
