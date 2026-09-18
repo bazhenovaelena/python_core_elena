@@ -10,3 +10,4 @@ a = int(a)
 b = int(b)
 print("а(целое число) =",a, type(a))
 print("b(целое число) =",b, type(b))
+
