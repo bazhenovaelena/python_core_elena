@@ -1,5 +1,5 @@
-English = "London is the capital of Great Britain"
+eng_words = "London is the capital of Great Britain"
 city = "London"
-print(English)
+print(eng_words)
 print(city)
-print(city in English)
+print(city in eng_words)
