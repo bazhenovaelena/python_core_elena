@@ -1,5 +1,4 @@
 
-
 def get_test_statistics(results):
     res = results.split()
     passes = []
@@ -12,7 +11,6 @@ def get_test_statistics(results):
 
         elif status == "FAIL":
             fails.append(status)
-
 
         elif status == "SKIP":
             skips.append(status)
@@ -28,15 +26,10 @@ def get_test_statistics(results):
     pass_percentage = round(pass_percentage, 1)
 
 
-
     print(f'Total test amount: {len(res)}')
     dict_statistics= dict(zip(status_options, status_count))
     for key, value in dict_statistics.items():
         print(f'{key}: {value}')
     print(f"Success rate: {pass_percentage}%")
 
-
 get_test_statistics(results = input("Enter test status: "))
-
-
-
