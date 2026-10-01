@@ -1,0 +1,25 @@
+[
+  { "User": "user_1",
+    "Login": "login_1",
+    "Password": "password_1",
+    "Auth": "PASS"
+  },
+  {
+    "User": "user_2",
+    "Login": "login_2",
+    "Password": "password_2",
+    "Auth": "FAIL"
+  },
+  {
+    "User": "user_3",
+    "Login": "login_3",
+    "Password": "password_3",
+    "Auth": "PASS"
+  },
+  {
+    "User": "user_4",
+    "Login": "login_3",
+    "Password": "password_3",
+    "Auth": "FAIL"
+  }
+]
