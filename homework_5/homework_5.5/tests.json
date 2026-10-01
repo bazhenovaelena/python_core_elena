@@ -1,0 +1,7 @@
+[
+  {"name": "Auth", "status": "PASS", "time": 2},
+  {"name": "Filter_goods", "status": "PASS", "time": 5},
+  {"name": "Add_to_cart", "status": "PASS", "time": 6},
+  {"name": "Delete_from_cart", "status": "SKIP", "time": 10},
+  {"name": "Payment", "status": "FAIL", "time": 15}
+]
